@@ -1,8 +1,13 @@
 [package]
 name = "apexpad-locker"
 version = "0.1.0"
-description = "Created with Anchor"
+description = "Apexpad token locker program"
 edition = "2021"
+
+[workspace]
+members = [
+    "fuzz"
+]
 
 [lib]
 crate-type = ["cdylib", "lib"]
@@ -15,6 +20,7 @@ cpi = ["no-entrypoint"]
 no-entrypoint = []
 no-idl = []
 no-log-ix-name = []
+fuzz = ["arbitrary", "honggfuzz"]
 
 
 [dependencies]
