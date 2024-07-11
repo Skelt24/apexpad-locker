@@ -5,3 +5,6 @@ target
 node_modules
 test-ledger
 .yarn
+key.json
+/programs/apexpad-locker/target/*
+/programs/apexpad-locker/fuzz/hfuzz_target

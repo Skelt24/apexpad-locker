@@ -21,5 +21,6 @@ pub fn process_instruction(
     Ok(())
 }
 
-// Deploy the program with the following id:
-// solana_program::declare_id!("VestingbGKPFXCWuBvfkegQfZyiNwAJb9Ss623VQ5DA");
+solana_program::declare_id!("AL7nyF8UR5MsmXrmnCf8SoAyT7ccK2DDQh6GZufbWcje");
+
+// solana_program::declare_id!("HpjADbhcDMUxm57aNWwQTvg4rwwvPSvdiCQnmNNwKU37");
